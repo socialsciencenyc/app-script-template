@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended"],
+  "env": { "node": true, "es6": true },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "globals": {
+    "Logger": true,
+    "Sheets": true
+  },
+  "rules":{
+    "no-unused-vars":"off",
+    "no-undef":"off"
+  }
+}
