@@ -1,6 +1,6 @@
 # app-script-template
 
-Google Apps Script Application with [Browserify](http://browserify.org) + [Babel](https://babeljs.io/).
+Google Apps Script Application with webpack.
 
 # For Local Development
 
@@ -19,9 +19,6 @@ Please see [clasp](https://github.com/google/clasp) and [Command Line Interface 
 # Deploy
 
 ```sh
-$ npm run deploy
+$ npm run build
+$ npm run push
 ```
-
-* Server JavaScript files will be compiled by Browserify and [gasify](https://www.npmjs.com/package/gasify).
-* Sync compiled `Code.gs` to Google Apps Script Project in Google Drive by clasp.
-# app-script-template
